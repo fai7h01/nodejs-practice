@@ -5,11 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --env-file=.env index.js"
+    "start": "nodemon --env-file=.env server.js"
   },
   "author": "Luka",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
